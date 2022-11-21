@@ -5,7 +5,7 @@
 
 ## ERDs
 
-<img width="671" alt="Screen Shot 2022-11-20 at 9 43 42 PM" src="https://media.git.generalassemb.ly/user/45071/files/f3ccca38-5bd1-4318-b354-37353eac1c54">
+<img width="683" alt="Screen Shot 2022-11-21 at 9 24 56 AM" src="https://media.git.generalassemb.ly/user/45071/files/cee75857-9b16-4a2f-8903-22400b0340b8">
 
 <hr>
 
