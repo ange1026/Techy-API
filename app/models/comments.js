@@ -1,5 +1,5 @@
 // import dependencies
-const mongoose = require ('./connection')
+const mongoose = require ('mongoose')
 
 // import user model for populate
 const  { Schema } = mongoose
