@@ -1,4 +1,6 @@
 const mongoose = require('mongoose')
+const savedArticlesSchema = require('./savedArticle')
+
 
 const userSchema = new mongoose.Schema(
 	{
@@ -11,7 +13,10 @@ const userSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
+		savedArticles: [savedArticlesSchema],
+		
 		token: String,
+
 	},
 	{
 		timestamps: true,
