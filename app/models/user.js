@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const savedArticlesSchema = require('./savedArticle')
+const articlesSchema = require('./savedArticle')
 
 
 const userSchema = new mongoose.Schema(
@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
-		savedArticles: [savedArticlesSchema],
+		savedArticles: [articlesSchema],
 		
 		token: String,
 

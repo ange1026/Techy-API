@@ -1,13 +1,17 @@
+
 const mongoose = require ('mongoose')
 
-const savedArticlesSchema = new mongoose.Schema(
+const articlesSchema = new mongoose.Schema(
     {
         url: {
             type: String,
             required: true,
             unique: true,
         }
+    },
+    {
+    timestamps: true
     }
 )
 
-module.exports = savedArticlesSchema
+module.exports = articlesSchema
